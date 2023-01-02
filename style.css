@@ -1,0 +1,190 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Seymour One', sans-serif;
+}
+
+.first-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.png);
+    background-size: cover;
+    height: 100vh;
+    font-size: large;
+}
+
+.second-slide{
+    background-image: url(bg1.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-slide > h3 {
+    width: 50em;
+    color: rgb(187, 185, 185);
+    margin-left: 20px;
+}
+
+.third-slide{
+    background-image: url(bg2.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.fourth-slide{
+    background-image: url(bg3.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+.fourth-slide > h3 {
+    margin-top: 80px;
+    width: 80vw;
+}
+
+.fifth-slide{
+    background-image: url(bg4.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.fifth-slide > h3 {
+    width: 80vw;
+    margin: 30px;
+}
+
+.fifth-slide > img {
+    width: 40vw;
+}
+
+.sixth-slide{
+    background-image: url(https://gdb.voanews.com/1D6934AF-8CF8-4A61-8CCB-471BA4BF2626_tv_w1200_r1.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.sixth-slide > h3{
+    margin: 30px;
+}
+
+.seventh-slide{
+    background-image: url(bg5.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.seventh-slide > img {
+    height: 50vh;
+    margin-top: 200px;
+}
+
+.seventh-slide > h3 {
+    margin: 30px;
+}
+
+.eigth-slide{
+    background-image: url(bg6.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.eigth-slide > h3 {
+    width: 80vw;
+    margin: 30px;
+    color: white;
+}
+
+.ninth-slide{
+    background-image: url(https://media.istockphoto.com/id/488722843/photo/seaweed.jpg?s=612x612&w=0&k=20&c=huiVL7WXBLzO2I18oWlM8z6DPEF9AXwncOHwsm5esvo=);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ninth-slide > h3 {
+    margin-top: 30px;
+    width: 50vw;
+}
+
+.oz{
+    height: 60vh;
+    width: 60vw;
+}
+
+.highlight{
+    display: inline;
+    padding: .25em 0;
+    background: #000000;
+    color: #ffffff;
+    box-shadow: .5em 0 0 #000000, -.5em 0 0 #000000;
+}
+.fun-facts{
+    background-image: url(https://i.pinimg.com/originals/8c/82/84/8c8284bd9ff5c81c9478a8f72cb42662.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;  
+}
+.fun-facts > img {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 230px;
+}
+.fun-facts > h4 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 350px;
+}
+
+.fun-facts > h2 {
+    margin-left: 30px;
+}
+
+.thankyou{
+    background-image: url(Thank\ you.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+}
